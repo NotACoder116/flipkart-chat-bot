@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  display: flex;
+  height: 100vh;
 }
 
 .App-logo {
@@ -28,10 +29,102 @@
   color: #61dafb;
 }
 
+img {
+  width: 20px;
+}
+
+.detailsHeadingImg {
+  width: 50px;
+}
+
+.eachUser {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.eachUser:hover {
+  background-color: #f1f3f6;
+}
+
+.search-bar {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 95%;
+  margin: 0 10px 10px 10px;
+  outline: none;
+  height: 30px;
+}
+
+.userProductIntro {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex: 1;
+  padding-left: 10px;
+}
+
+.allUsersAvailable {
+  flex: 0 0 30%;
+}
+
+.noUserAvailable {
+  flex: 1
+}
+
+.common {
+  overflow-y: scroll;
+  box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.title-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 4em;
+}
+
+.allUsersChatDetails {
+  flex: 1;
+}
+
+.text-left {
+  display: flex;
+  justify-content: left;
+  background-color: white;
+  border-radius: 12px;
+  border-top-left-radius: inherit;
+  width: fit-content;
+}
+
+.text-right {
+  display: flex;
+  justify-content: right;
+  background-color: #027CD5;
+  border-radius: 12px;
+  border-top-right-radius: inherit;
+  color: white;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+p, h6 {
+  margin: 0;
+}
+
+.brdr-btm {
+  border-bottom: 1px solid lightgrey;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

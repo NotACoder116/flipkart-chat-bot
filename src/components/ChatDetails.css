@@ -1,0 +1,90 @@
+.chatDetailsHeading {
+    display:flex;
+    align-items: center;
+    box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.75);
+    height: 7em;
+    padding-left: 20px;
+}
+
+.chatDetailsTitle {
+    margin: 0 0 0 15px;
+}
+
+.detailsHeadingImg {
+    margin-left: 3px;
+}
+
+.chatDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.chatDetailsInput {
+    height: 50px;
+    outline: none;
+    border: none;
+    width: 100%;
+    box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.25);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.chatDetailsInput {
+    position: relative;
+    padding: 0 100px 0 10px;
+}
+
+.sendIcon {
+    position: absolute;
+    left: 96%;
+    width: 35px;
+}
+
+.allChats {
+    background-color: #f1f3f6;
+    height: calc(100% - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 40px 0 40px;
+    overflow-y: scroll;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+
+.noChats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.color-blue {
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    position: relative;
+}
+
+.pd-btm-10 {
+    padding-bottom: 10px;
+}
+
+.color-grey {
+  color: grey;
+}
